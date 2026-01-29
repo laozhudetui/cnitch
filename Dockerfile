@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.23.3
 
 RUN adduser -h /home/cnitch -D cnitch cnitch
 #RUN usermod -aG docker cnitch
